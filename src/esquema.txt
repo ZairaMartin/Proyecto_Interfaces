@@ -1,0 +1,70 @@
+Estructura del Formulario de Registro de Eventos
+1. Información Personal del Asistente
+- Nombre Completo:
+Componente: CampoTexto
+Tipo: JTextField
+- Correo Electrónico:
+Componente: CampoTexto
+Tipo: JTextField (puedes añadir validación para verificar el formato)
+- Teléfono:
+Componente: CampoTexto
+Tipo: JFormattedTextField (para asegurar formato correcto)
+- Fecha de Nacimiento:
+Componente: SelectorOpciones
+Tipo: JSpinner o JDatePicker
+- Género:
+Componente: SelectorOpciones
+Tipo: JRadioButton (opciones: Masculino, Femenino, Otro)
+2. Información del Evento
+- Tipo de Evento:
+Componente: SelectorOpciones
+Tipo: JComboBox (opciones: Taller, Conferencia, Seminario)
+- Fecha del Evento:
+Componente: SelectorOpciones
+Tipo: JSpinner o JDatePicker
+- Horario Preferido:
+Componente: SelectorOpciones
+Tipo: JComboBox (opciones: Mañana, Tarde, Noche)
+- Selección de Talleres:
+Componente: SelectorOpciones
+Tipo: JCheckBox (para permitir múltiples selecciones)
+3. Preferencias del Asistente
+- Comida Preferida:
+Componente: SelectorOpciones
+Tipo: JComboBox (opciones: Vegetariano, Vegano, Omnívoro)
+- Talla de Camiseta:
+Componente: SelectorOpciones
+Tipo: JComboBox (opciones: S, M, L, XL)
+- Aceptación de Términos:
+Componente: SelectorOpciones
+Tipo: JCheckBox (para que el usuario confirme la aceptación)
+4. Métodos de Pago e Información Extra
+- Método de Pago:
+Componente: SelectorOpciones
+Tipo: JRadioButton (opciones: Tarjeta, PayPal, Transferencia)
+- Número de Asistentes:
+Componente: CampoTexto
+Tipo: JSpinner (para seleccionar la cantidad)
+- Notas Adicionales:
+Componente: AreaTexto
+Tipo: JTextArea (para comentarios adicionales)
+5. Detalles de Facturación
+- Dirección Completa:
+Componente: AreaTexto
+Tipo: JTextArea (con JScrollPane para permitir desplazamiento)
+- Código Postal:
+Componente: CampoTexto
+Tipo: JTextField (validación del formato)
+- País:
+Componente: SelectorOpciones
+Tipo: JComboBox (con una lista de países)
+6. Botones de Acción
+- Registrar:
+Componente: BotonAccion
+Tipo: JButton
+L- impiar Formulario:
+Componente: BotonAccion
+Tipo: JButton
+- Cancelar:
+Componente: BotonAccion
+Tipo: JButton
