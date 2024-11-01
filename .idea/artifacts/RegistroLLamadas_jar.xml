@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RegistroLLamadas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RegistroLLamadas_jar</output-path>
+    <root id="archive" name="RegistroLLamadas.jar">
+      <element id="module-output" name="RegistroLLamadas" />
+    </root>
+  </artifact>
+</component>
